@@ -9,6 +9,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Meta tags Obrigatórias -->
+  <script src="https://gist.github.com/ografael/2037135.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>
@@ -134,15 +135,41 @@
     <div class="form-group">
       <label for="uf">UF</label>
       <select class="form-control" name="uf">
-          <option>Selecione a UF</option>
-        </select>
+        <option>Selecione a UF</option>
+        <option>AC</option>
+        <option>AM</option>
+        <option>AP</option>
+        <option>BA</option>
+        <option>CE</option>
+        <option>DF</option>
+        <option>ES</option>
+        <option>GO</option>
+        <option>MA</option>
+        <option>MG</option>
+        <option>MS</option>
+        <option>MT</option>
+        <option>PA</option>
+        <option>PB</option>
+        <option>PE</option>
+        <option>PI</option>
+        <option>PR</option>
+        <option>RJ</option>
+        <option>RN</option>
+        <option>RO</option>
+        <option>RR</option>
+        <option>RS</option>
+        <option>SC</option>
+        <option>SE</option>
+        <option>SP</option>
+        <option>TO</option>
+      </select>
     </div>
 
     <div class="form-group">
       <label for="cidade">Cidade</label>
       <select class="form-control" name="cidade">
-          <option>Selecione a Cidade</option>
-        </select>
+        <option>Selecione a Cidade</option>
+      </select>
     </div>
 
 
