@@ -9,7 +9,7 @@
 <head>
   <meta charset="utf-8">
   <!-- Meta tags Obrigatórias -->
-  <script src="https://gist.github.com/ografael/2037135.js"></script>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>
@@ -19,7 +19,7 @@
 
 <body>
   <p>Informações Básicas</p>
-  <form method="post" action="cadastrar_cliente_salvar.php">
+  <form method="post" action="../../control/cadastro_salvar/cadastrar_cliente_salvar.php">
     <div class="form-group">
       <label for="tratamento">Tratamento</label>
       <select class="form-control" name="tratamento">
@@ -169,6 +169,7 @@
       <label for="cidade">Cidade</label>
       <select class="form-control" name="cidade">
         <option>Selecione a Cidade</option>
+        <option>Teste</option>
       </select>
     </div>
 
