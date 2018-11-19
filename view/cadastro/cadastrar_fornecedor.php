@@ -92,6 +92,10 @@ $titulo = "Cadastro fornecedor";
             <option>Acre</option>
             <option>Amazonas</option>
           </select>
+<?php
+
+$valor = $_POST['uf_Forne']; ?>
+
 
           <label for="cidade_Forne">Cidade</label>
           <select class="form-control" name="cidade_Forne">
