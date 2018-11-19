@@ -1,5 +1,5 @@
 <?php
-include '../conexao/conexao.php';
+include '../../model/conexao/conexao.php';
 $razao_Forne = $_POST['razao_Forne'];
 $nomeFan_Forne = $_POST['nomeFan_Forne'];
 $cnpj_Forne = $_POST['cnpj_Forne'];
