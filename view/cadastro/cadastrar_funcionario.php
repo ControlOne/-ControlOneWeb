@@ -4,11 +4,12 @@ $titulo = "Cadastro Funcionário";
  ?>
 
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="pt-br" dir="ltr">
 
 <head>
   <meta charset="utf-8">
   <!-- Meta tags Obrigatórias -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>
@@ -18,7 +19,10 @@ $titulo = "Cadastro Funcionário";
 
 <body>
   <p>Informações Básicas</p>
-  <form method="post" action="cadastrar_cliente_salvar.php">
+  <form method="post" action="../../control/cadastrar_salvar/cadastrar_funcionario_salvar.php">
+<div class="form-group">
+  <label><h2>Ainda não está funcionando. PS: DLC por apenas R$199,99</h2></label
+</div>
     <div class="form-group">
       <label for="tratamento">Tratamento</label>
       <select class="form-control" name="tratamento">
@@ -103,7 +107,7 @@ $titulo = "Cadastro Funcionário";
     </div>
 
     <button type="submit" class="btn btn-primary">Enviar</button>
-    <a href="consulta.php" class="btn btn-danger">Cancelar</a>
+    <a href="menu.php" class="btn btn-danger">Cancelar</a>
 
 
 

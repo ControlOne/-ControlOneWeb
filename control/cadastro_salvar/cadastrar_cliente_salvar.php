@@ -50,7 +50,7 @@ echo $inserir->rowCount(). "linhas";
 
 
  ?>
- <a href="cadastrar.php"class="btn btn-success">Cadastrar Nova Pessoa</a>
-  <a href="consulta.php"class="btn btn-primary">HOME</a>
+ <a href="../../view/cadastro/cadastrar_cliente.php"class="btn btn-success">Cadastrar Nova Cliente</a>
+<a href="../../view/cadastro/menu.php"class="btn btn-success">Menu</a>
 
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
